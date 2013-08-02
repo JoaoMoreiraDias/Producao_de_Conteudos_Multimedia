@@ -1,0 +1,1383 @@
+﻿Lost Temple / Shadow Labirynth / Labirynth / Destination / Dreamer's Palace
+
+1. Floresta e entrada para o castelo.
+2. Fighting Spirit, unidades que que refletam os movimentos do jogador e se tocarem nele matam-no. é preciso destruir as luzes para eles desaparecerem
+3. Under the Sun, sala escura com buracos, sol brilha as vezes e é preciso ver enquanto se pode o caminho.
+4. Gladiator, cair num poço, matar enimigos até os portones abrirem.
+5. Electric Circuit, chao fica eletrocutado de vez em quando por temporizador, ha zonas seguras mas so se pode atravessar quando o chao tiver sem electricidade.
+6. Ground Zero, atravesar uma sala que se vai enchendo de lava lentamente.
+7. Sniper Ridge, ha setas horizontalmente, o obejectivo é desviar das setas e usar obejectos para cobrir das setas.
+8. Sleeping Village, sala com enimigos que que meter a personagem a adormeçer durante algum tempo.
+9. Lift off, sala com placas no chao que esmagam o jogador num tecto com picos.
+10. The hunter, o bejectivo é correr ate ao fim da sala quando ha um animal atras, o animal nao pode apanhar a pessoa.
+11. Circuit Breaker, ha barreiras electricas pelo sala, é preciso partir o que gerador para desligar.
+12. All Moving parts, sala com plataformas a mexer, não se pode pair até ao fundo.
+13. La Mancha, mapa com enimigos que correm horizontalmente de tras para a frente.
+14. Monte Cristo, salacom paredes destrutiveis e buracos/caminhos na parede.
+15. Warning, Sala com cubos destrutiveis, ha pistas para dizer que cubos nao partir estilo minesweeper.
+16. Jade, sala com pedras verdes, pedras verdes atrazam o movimento do jogador.
+17. Lost Temple, sala com muitos buracos no chao, algumas plataformas caem com o peso.
+18. Sabbra Cadabra, sala com inimigos que ressucitam depois em poouco tempo.
+19. Luna, sala com inimigos que so ficam inanimados ao tocar na luz.
+20. Python, sala com dois andares, superior com buracos que vao para o andar de baixo que tem varias serpentes em quantidades indefenidas, é preciso caminhar até atras e trepar tudo ate ao andar superiror onde ha a unica saida.
+21. Killing yourself to life, corredor sem saida, é preciso correr o riso e tentar morrer no final para chegar a saida.
+22. Gauntlet, sala com machados a rodar no tecto.
+23. Lycosidae, sala so com uma aranha enorme.
+24. Old Tornado, dois andares, um tornado sempre a rondar horizontalmente, o andar de baixo é seguro de tornados.
+25. River of Flames, sala com chamas que saem do chao.
+26. The Thrill of it all, sala em que não se pode parar de mexer seão o personagem morre.
+27. Glacial Epoch, chao que desliza, movimentos horizontais so podem ser parados ao bater contra uma obejecto.
+28. No Way Out, começa a meio devido a uma entrada no tecto, o caminho da direita nao tem saida, a saida esta para tras na direita so que não é suposto ser intuitivo.
+29. WHeels of comfussion, corredor com rodas (armadilhas) que atravessam o corredor e pincha em todas as supreficies.
+30. Blaze, corredor com inimigos a arder lentos que não podem ser parados e matam em contacto.
+31. Symmetry of Psy, corredor num angulo torto.
+32. Blade Storm, corredor com um inimigo que começa a rodar espontaniamente e acelera em direcção do jogador, ele nao esta sempre a rodar.
+33. Chaotic Surface, grande buraco no chao, o caminho é invisivel e so pode ser descobero por oberservar por onde é que os inimigos andam.
+34. Spider mines, este corredor tem inimigos que so desperam por proximidade.
+35. Paranoid, o jogador fica numa plataforma centar enquanto tudo a sua volta se move horizontalmente, a platafora move-se de cima para baixo. o obejectivo e derrotar inimigos e desviar-se de perigos.
+Final. Dante's Peak, Batalha com o diabo no cimo da torre.
+
+
+----------
+
+Recursos http://as3gametuts.com/
+
+https://www.box.com/s/d6oibaw63w12e2kvcmsx
+
+
+TheWorldofAdventure @ http://dl.dropboxusercontent.com/u/8935299/AS3GameTuts/Sidescroller/TheWorldofAdventure.swf
+
+
+package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class greenGem_44 extends MovieClip {
+
+        public function greenGem_44(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class carrot_46 extends MovieClip {
+
+        public function carrot_46(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class carrotTrace_33 extends MovieClip {
+
+        public function carrotTrace_33(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class purpleGem_42 extends MovieClip {
+
+        public function purpleGem_42(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class snowMan_32 extends MovieClip {
+
+        public function snowMan_32(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class hero_47 extends MovieClip {
+
+        public function hero_47(){
+            addFrameScript(6, this.frame7, 20, this.frame21);
+        }
+        function frame7(){
+            gotoAndPlay("running");
+        }
+        function frame21(){
+            gotoAndPlay("jumping");
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.events.*;
+    import flash.display.*;
+    import flash.utils.*;
+    import flash.ui.*;
+    import adobe.utils.*;
+    import flash.accessibility.*;
+    import flash.desktop.*;
+    import flash.errors.*;
+    import flash.external.*;
+    import flash.filters.*;
+    import flash.geom.*;
+    import flash.media.*;
+    import flash.net.*;
+    import flash.printing.*;
+    import flash.profiler.*;
+    import flash.sampler.*;
+    import flash.system.*;
+    import flash.text.*;
+    import flash.text.engine.*;
+    import flash.xml.*;
+
+    public dynamic class MainTimeline extends MovieClip {
+
+        public var talkTimer:Timer;
+        public var snowTimer:Timer;
+        public var jumping:Boolean;
+        public var Yspeed:Number;
+        public var inGround:Boolean;
+        public var platform2Direction:int;
+        public var sky:MovieClip;
+        public var scrollX:Number;
+        public var back3:MovieClip;
+        public var gotCarrot:Boolean;
+        public var rightBumping:Boolean;
+        public var sky2:MovieClip;
+        public var back2:MovieClip;
+        public var scrollY:Number;
+        public var jumpTimer:Timer;
+        public var startGameButton:MovieClip;
+        public var speed:Number;
+        public var leftDown:Boolean;
+        public var onGround:Boolean;
+        public var spaceDown:Boolean;
+        public var talkReady:Boolean;
+        public var onLadder:Boolean;
+        public var rightDown:Boolean;
+        public var back:MovieClip;
+        public var beatGame:uint;
+        public var leftBump:MovieClip;
+        public var Xspeed:Number;
+        public var inWater:Boolean;
+        public var downDown:Boolean;
+        public var upDown:Boolean;
+        public var downBump:MovieClip;
+        public var rightBump:MovieClip;
+        public var hero:MovieClip;
+        public var leftBumping:Boolean;
+        public var gemNumber:uint;
+
+        public function MainTimeline(){
+            addFrameScript(0, this.frame1, 1, this.frame2, 2, this.frame3);
+        }
+        function frame2(){
+            stop();
+            this.scrollX = 2800;
+            this.scrollY = -2000;
+            this.Xspeed = 0;
+            this.Yspeed = 0;
+            this.upDown = false;
+            this.downDown = false;
+            this.leftDown = false;
+            this.rightDown = false;
+            this.spaceDown = false;
+            this.onGround = false;
+            this.inGround = false;
+            this.inWater = false;
+            this.onLadder = false;
+            this.leftBumping = false;
+            this.rightBumping = false;
+            this.speed = 1;
+            this.jumping = false;
+            this.talkReady = true;
+            this.platform2Direction = 0;
+            this.gemNumber = 0;
+            this.gotCarrot = false;
+            this.beatGame = 0;
+            this.jumpTimer = new Timer(500);
+            this.talkTimer = new Timer(400);
+            this.snowTimer = new Timer(1000);
+            this.hero.x = (stage.stageWidth / 2);
+            this.hero.y = (stage.stageHeight / 2);
+            this.beginCode();
+        }
+        public function endCode():void{
+            this.jumpTimer.removeEventListener("timer", this.jumpEnd);
+            this.talkTimer.removeEventListener("timer", this.talkNextReady);
+            this.snowTimer.removeEventListener("timer", this.snowNose);
+            this.hero.removeEventListener(Event.ENTER_FRAME, this.moveHero);
+            stage.removeEventListener(KeyboardEvent.KEY_DOWN, this.downHandler);
+            stage.removeEventListener(KeyboardEvent.KEY_UP, this.upHandler);
+            gotoAndStop(3);
+        }
+        public function moveHero(_arg1:Event):void{
+            this.back.x = this.scrollX;
+            this.back.y = this.scrollY;
+            this.back2.x = (this.scrollX + 0x1900);
+            this.back2.y = this.scrollY;
+            this.back3.x = (this.scrollX + 0x3200);
+            this.back3.y = this.scrollY;
+            this.sky.x = (-3000 + (this.scrollX / 2));
+            this.sky.y = (-4000 + (this.scrollY / 2));
+            this.sky2.x = (3300 + (this.scrollX / 2));
+            this.sky2.y = (-4000 + (this.scrollY / 2));
+            this.scrollX = (this.scrollX + this.Xspeed);
+            this.scrollY = (this.scrollY + this.Yspeed);
+            this.Xspeed = (this.Xspeed * 0.93);
+            this.Yspeed = (this.Yspeed * 0.93);
+            if (this.rightBumping){
+                this.Xspeed = 0;
+                this.Xspeed = (this.Xspeed + 5);
+            };
+            if (this.leftBumping){
+                this.Xspeed = 0;
+                this.Xspeed = (this.Xspeed - 5);
+            };
+            if (this.rightDown){
+                this.hero.scaleX = 1;
+                if (this.rightBumping == false){
+                    this.Xspeed = (this.Xspeed - this.speed);
+                };
+            };
+            if (this.leftDown){
+                this.hero.scaleX = -1;
+                if (this.leftBumping == false){
+                    this.Xspeed = (this.Xspeed + this.speed);
+                };
+            };
+            if (this.upDown){
+                if (this.inWater){
+                    this.Yspeed = (this.Yspeed + 2);
+                } else {
+                    if (this.onGround){
+                        this.jump();
+                    };
+                };
+            };
+            if (((this.upDown) && (this.onLadder))){
+                this.Yspeed = (this.Yspeed + 1.5);
+            };
+            if (this.downDown){
+                if (this.inWater){
+                    this.Yspeed = (this.Yspeed - 1.5);
+                } else {
+                    if (this.onLadder){
+                        this.Yspeed = (this.Yspeed - 1);
+                    };
+                };
+            };
+            if (this.upDown){
+                this.hero.gotoAndPlay(8);
+            } else {
+                if (((this.rightDown) || (this.leftDown))){
+                    this.hero.play();
+                } else {
+                    this.hero.gotoAndStop(1);
+                };
+            };
+            this.downBump.y = (this.hero.y + 5);
+            this.leftBump.x = (this.hero.x - 40);
+            this.leftBump.y = (this.hero.y - 70);
+            this.rightBump.x = (this.hero.x + 40);
+            this.rightBump.y = (this.hero.y - 70);
+            if (((((this.back.realGround.hitTestPoint(this.hero.x, this.hero.y, true)) || (this.back2.realGround2.hitTestPoint(this.hero.x, this.hero.y, true)))) || (this.back3.realGround3.hitTestPoint(this.hero.x, this.hero.y, true)))){
+                this.onGround = true;
+            } else {
+                this.onGround = false;
+            };
+            if (((((this.back.realGround.hitTestPoint(this.hero.x, (this.hero.y - 15), true)) || (this.back2.realGround2.hitTestPoint(this.hero.x, (this.hero.y - 15), true)))) || (this.back3.realGround3.hitTestPoint(this.hero.x, (this.hero.y - 15), true)))){
+                this.inGround = true;
+            } else {
+                this.inGround = false;
+            };
+            if (((((this.back.realGround.hitTestPoint(this.hero.x, (this.hero.y - this.hero.height), true)) || (this.back2.realGround2.hitTestPoint(this.hero.x, (this.hero.y - this.hero.height), true)))) || (this.back3.realGround3.hitTestPoint(this.hero.x, (this.hero.y - this.hero.height), true)))){
+                this.Yspeed = 0;
+                this.Yspeed = (this.Yspeed - 5);
+            };
+            if (((((((((((((((((this.back.realGround.hitTestPoint((this.downBump.x + (this.downBump.width / 2)), this.downBump.y, true)) || (this.back.realGround.hitTestPoint(this.downBump.x, this.downBump.y, true)))) || (this.back.realGround.hitTestPoint((this.downBump.x + this.downBump.width), this.downBump.y, true)))) || (this.back2.realGround2.hitTestPoint((this.downBump.x + (this.downBump.width / 2)), this.downBump.y, true)))) || (this.back2.realGround2.hitTestPoint(this.downBump.x, this.downBump.y, true)))) || (this.back2.realGround2.hitTestPoint((this.downBump.x + this.downBump.width), this.downBump.y, true)))) || (this.back3.realGround3.hitTestPoint((this.downBump.x + (this.downBump.width / 2)), this.downBump.y, true)))) || (this.back3.realGround3.hitTestPoint(this.downBump.x, this.downBump.y, true)))) || (this.back3.realGround3.hitTestPoint((this.downBump.x + this.downBump.width), this.downBump.y, true)))){
+                if ((((this.jumping == false)) && ((this.inWater == false)))){
+                    this.Yspeed = 0;
+                };
+            };
+            if (((((((((((((((((this.back.realGround.hitTestPoint(this.leftBump.x, this.leftBump.y, true)) || (this.back.realGround.hitTestPoint(this.leftBump.x, (this.leftBump.y + this.leftBump.height), true)))) || (this.back.realGround.hitTestPoint(this.leftBump.x, (this.leftBump.y + (this.leftBump.height / 2)), true)))) || (this.back2.realGround2.hitTestPoint(this.leftBump.x, this.leftBump.y, true)))) || (this.back2.realGround2.hitTestPoint(this.leftBump.x, (this.leftBump.y + this.leftBump.height), true)))) || (this.back2.realGround2.hitTestPoint(this.leftBump.x, (this.leftBump.y + (this.leftBump.height / 2)), true)))) || (this.back3.realGround3.hitTestPoint(this.leftBump.x, this.leftBump.y, true)))) || (this.back3.realGround3.hitTestPoint(this.leftBump.x, (this.leftBump.y + this.leftBump.height), true)))) || (this.back3.realGround3.hitTestPoint(this.leftBump.x, (this.leftBump.y + (this.leftBump.height / 2)), true)))){
+                this.leftBumping = true;
+            } else {
+                this.leftBumping = false;
+            };
+            if (((((((((((((((((this.back.realGround.hitTestPoint(this.rightBump.x, this.rightBump.y, true)) || (this.back.realGround.hitTestPoint(this.rightBump.x, (this.rightBump.y + this.rightBump.height), true)))) || (this.back.realGround.hitTestPoint(this.rightBump.x, (this.rightBump.y + (this.rightBump.height / 2)), true)))) || (this.back2.realGround2.hitTestPoint(this.rightBump.x, this.rightBump.y, true)))) || (this.back2.realGround2.hitTestPoint(this.rightBump.x, (this.rightBump.y + this.rightBump.height), true)))) || (this.back2.realGround2.hitTestPoint(this.rightBump.x, (this.rightBump.y + (this.rightBump.height / 2)), true)))) || (this.back3.realGround3.hitTestPoint(this.rightBump.x, this.rightBump.y, true)))) || (this.back3.realGround3.hitTestPoint(this.rightBump.x, (this.rightBump.y + this.rightBump.height), true)))) || (this.back3.realGround3.hitTestPoint(this.rightBump.x, (this.rightBump.y + (this.rightBump.height / 2)), true)))){
+                this.rightBumping = true;
+            } else {
+                this.rightBumping = false;
+            };
+            if (this.back.realGround.movingPlatforms.movingPlatform1.hitTestObject(this.hero)){
+                this.Yspeed = (this.Yspeed + 10);
+            };
+            if (this.back.realGround.movingPlatforms.myElevator1.movingElevator1.hitTestObject(this.hero)){
+                this.Yspeed = (this.Yspeed + 10);
+            };
+            if (this.back2.realGround2.carrotCaseMove.hitTestObject(this.hero)){
+                this.Yspeed = (this.Yspeed + 20);
+            };
+            if (this.back2.realGround2.punch1.hitTestPoint(this.hero.x, this.hero.y, true)){
+                if (this.back2.realGround2.punch1.currentFrame >= 29){
+                    this.scrollY = (this.scrollY + 15);
+                    this.Yspeed = (this.Yspeed + 120);
+                };
+            };
+            if (this.back2.realGround2.punch2.hitTestPoint(this.hero.x, this.hero.y, true)){
+                if (this.back2.realGround2.punch2.currentFrame >= 29){
+                    this.scrollY = (this.scrollY + 15);
+                    this.Yspeed = (this.Yspeed + 120);
+                };
+            };
+            if (this.back2.realGround2.punch3.hitTestPoint(this.hero.x, this.hero.y, true)){
+                if (this.back2.realGround2.punch3.currentFrame >= 29){
+                    this.scrollY = (this.scrollY + 15);
+                    this.Yspeed = (this.Yspeed + 120);
+                };
+            };
+            if (this.back.realGround.movingPlatforms.movingPlatform2.hitTestObject(this.hero)){
+                this.Xspeed = (this.Xspeed + (0.65 * this.platform2Direction));
+            };
+            if (this.back.effectGround.backWater.hitTestPoint(this.hero.x, ((this.hero.y - this.hero.height) + 20))){
+                this.inWater = true;
+                this.Yspeed = (this.Yspeed + 1.2);
+            } else {
+                this.inWater = false;
+            };
+            if (this.onGround == false){
+                if (this.onLadder == false){
+                    this.Yspeed = (this.Yspeed - 1);
+                };
+            } else {
+                if ((((this.onGround == true)) && ((this.inGround == true)))){
+                    this.Yspeed = (this.Yspeed + 7);
+                };
+            };
+            if (((((((this.back3.effectGround3.ladder1.hitTestObject(this.hero)) || (this.back3.effectGround3.ladder2.hitTestObject(this.hero)))) || (this.back3.effectGround3.ladder3.hitTestObject(this.hero)))) || (this.back3.effectGround3.ladder4.hitTestObject(this.hero)))){
+                this.onLadder = true;
+            } else {
+                this.onLadder = false;
+            };
+            if (this.hero.hitTestObject(this.back3.effectGround3.blueGem)){
+                this.back3.effectGround3.blueGem.gotoAndStop(2);
+                this.gemNumber++;
+            };
+            if (this.hero.hitTestObject(this.back3.effectGround3.redGem)){
+                this.back3.effectGround3.redGem.gotoAndStop(2);
+                this.gemNumber++;
+            };
+            if (this.hero.hitTestObject(this.back3.effectGround3.greenGem)){
+                this.back3.effectGround3.greenGem.gotoAndStop(2);
+                this.gemNumber++;
+            };
+            if (this.hero.hitTestObject(this.back3.effectGround3.yellowGem)){
+                this.back3.effectGround3.yellowGem.gotoAndStop(2);
+                this.gemNumber++;
+            };
+            if (this.hero.hitTestObject(this.back3.effectGround3.purpleGem)){
+                this.back3.effectGround3.purpleGem.gotoAndStop(2);
+                this.gemNumber++;
+            };
+            if (this.hero.hitTestObject(this.back3.effectGround3.carrot)){
+                if (this.back3.effectGround3.carrot.currentFrame == 2){
+                    this.gotCarrot = true;
+                    this.back3.effectGround3.carrot.visible = false;
+                    this.back3.realGround3.carrotCase.gotoAndStop(2);
+                    this.back2.realGround2.carrotCaseMove.gotoAndPlay(2);
+                    this.back2.effectGround2.carrotTrace.gotoAndStop(2);
+                };
+            };
+            if (this.hero.hitTestObject(this.back3.effectGround3.farmerGrubb)){
+                if (((((this.spaceDown) && (this.talkReady))) && ((this.gotCarrot == false)))){
+                    this.talkReady = false;
+                    this.talkTimer.start();
+                    if (this.back3.effectGround3.farmerGrubb.currentFrame < 5){
+                        this.back3.effectGround3.farmerGrubb.gotoAndStop((this.back3.effectGround3.farmerGrubb.currentFrame + 1));
+                    } else {
+                        if (this.back3.effectGround3.farmerGrubb.currentFrame == 5){
+                            if (this.gemNumber == 5){
+                                this.back3.effectGround3.farmerGrubb.gotoAndStop(6);
+                                this.back3.effectGround3.carrot.gotoAndStop(2);
+                            } else {
+                                this.back3.effectGround3.farmerGrubb.gotoAndStop(1);
+                            };
+                        } else {
+                            this.back3.effectGround3.farmerGrubb.gotoAndStop(1);
+                        };
+                    };
+                };
+            } else {
+                this.back3.effectGround3.farmerGrubb.gotoAndStop(1);
+            };
+            if (this.hero.hitTestObject(this.back2.effectGround2.snowMan)){
+                if (this.gotCarrot){
+                    this.back2.effectGround2.snowMan.gotoAndStop(2);
+                    this.beatGame = 1;
+                    this.snowTimer.start();
+                };
+            };
+        }
+        public function talkNextReady(_arg1):void{
+            this.talkReady = true;
+        }
+        public function jump():void{
+            this.jumping = true;
+            this.Yspeed = 30;
+            this.jumpTimer.start();
+        }
+        public function beginCode():void{
+            this.jumpTimer.addEventListener("timer", this.jumpEnd);
+            this.talkTimer.addEventListener("timer", this.talkNextReady);
+            this.snowTimer.addEventListener("timer", this.snowNose);
+            this.hero.addEventListener(Event.ENTER_FRAME, this.moveHero);
+            stage.addEventListener(KeyboardEvent.KEY_DOWN, this.downHandler);
+            stage.addEventListener(KeyboardEvent.KEY_UP, this.upHandler);
+        }
+        public function downHandler(_arg1:KeyboardEvent):void{
+            if (_arg1.keyCode == Keyboard.UP){
+                this.upDown = true;
+            };
+            if (_arg1.keyCode == Keyboard.DOWN){
+                this.downDown = true;
+            };
+            if (_arg1.keyCode == Keyboard.RIGHT){
+                this.rightDown = true;
+            };
+            if (_arg1.keyCode == Keyboard.LEFT){
+                this.leftDown = true;
+            };
+            if (_arg1.keyCode == Keyboard.SPACE){
+                this.spaceDown = true;
+            };
+        }
+        public function upHandler(_arg1:KeyboardEvent):void{
+            if (_arg1.keyCode == Keyboard.UP){
+                this.upDown = false;
+            };
+            if (_arg1.keyCode == Keyboard.DOWN){
+                this.downDown = false;
+            };
+            if (_arg1.keyCode == Keyboard.RIGHT){
+                this.rightDown = false;
+            };
+            if (_arg1.keyCode == Keyboard.LEFT){
+                this.leftDown = false;
+            };
+            if (_arg1.keyCode == Keyboard.SPACE){
+                this.spaceDown = false;
+            };
+        }
+        public function jumpEnd(_arg1):void{
+            this.jumping = false;
+        }
+        function frame3(){
+            stop();
+        }
+        public function snowNose(_arg1):void{
+            this.endCode();
+        }
+        public function startGame(_arg1:MouseEvent):void{
+            this.startGameButton.removeEventListener(MouseEvent.CLICK, this.startGame);
+            gotoAndStop(2);
+        }
+        function frame1(){
+            stop();
+            this.startGameButton.addEventListener(MouseEvent.CLICK, this.startGame);
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class farmerGrubb_45 extends MovieClip {
+
+        public function farmerGrubb_45(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.events.*;
+    import flash.display.*;
+    import flash.utils.*;
+    import flash.ui.*;
+    import adobe.utils.*;
+    import flash.accessibility.*;
+    import flash.desktop.*;
+    import flash.errors.*;
+    import flash.external.*;
+    import flash.filters.*;
+    import flash.geom.*;
+    import flash.media.*;
+    import flash.net.*;
+    import flash.printing.*;
+    import flash.profiler.*;
+    import flash.sampler.*;
+    import flash.system.*;
+    import flash.text.*;
+    import flash.text.engine.*;
+    import flash.xml.*;
+
+    public dynamic class movingPlatforms_8 extends MovieClip {
+
+        public var movingPlatform1:MovieClip;
+        public var movingPlatform2:MovieClip;
+        public var myElevator1:MovieClip;
+
+        public function movingPlatforms_8(){
+            addFrameScript(0, this.frame1, 59, this.frame60, 89, this.frame90, 150, this.frame151);
+        }
+        function frame1(){
+            MovieClip(root).platform2Direction = -1;
+        }
+        function frame60(){
+            MovieClip(root).platform2Direction = 0;
+        }
+        function frame151(){
+            MovieClip(root).platform2Direction = 0;
+        }
+        function frame90(){
+            MovieClip(root).platform2Direction = 1;
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class blueGem_41 extends MovieClip {
+
+        public function blueGem_41(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class carrotCase_36 extends MovieClip {
+
+        public function carrotCase_36(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class redGem_40 extends MovieClip {
+
+        public function redGem_40(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class carrotCaseMove_25 extends MovieClip {
+
+        public var movingCarrotCase:MovieClip;
+
+        public function carrotCaseMove_25(){
+            addFrameScript(0, this.frame1, 1, this.frame2, 150, this.frame151, 309, this.frame310);
+        }
+        function frame151(){
+            gotoAndPlay(2);
+        }
+        function frame1(){
+            stop();
+        }
+        function frame2(){
+            play();
+        }
+        function frame310(){
+            gotoAndPlay(2);
+        }
+
+    }
+}//package TheWorldofAdventure_fla 
+﻿package TheWorldofAdventure_fla {
+    import flash.display.*;
+
+    public dynamic class yellowGem_43 extends MovieClip {
+
+        public function yellowGem_43(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package TheWorldofAdventure_fla
+
+---------------------------------------------------------------------------------------------------
+
+
+Sidescroller @ http://dl.dropboxusercontent.com/u/8935299/AS3GameTuts/Sidescroller/Sidescroller_AS3GameTuts_5_1.swf
+
+package Sidescroller_fla {
+    import flash.events.*;
+    import flash.display.*;
+    import flash.geom.*;
+    import flash.ui.*;
+
+    public dynamic class MainTimeline extends MovieClip {
+
+        public var upPressed:Boolean;
+        public var speedConstant:Number;
+        public var gravityConstant:Number;
+        public var maxSpeedConstant:Number;
+        public var leftPressed:Boolean;
+        public var upBumpPoint:Point;
+        public var downPressed:Boolean;
+        public var scrollY:Number;
+        public var xSpeed:Number;
+        public var rightBumping:Boolean;
+        public var scrollX:Number;
+        public var leftBumpPoint:Point;
+        public var doubleJumpReady:Boolean;
+        public var frictionConstant:Number;
+        public var upReleasedInAir:Boolean;
+        public var upBumping:Boolean;
+        public var ySpeed:Number;
+        public var player:MovieClip;
+        public var leftBumping:Boolean;
+        public var rightPressed:Boolean;
+        public var back:MovieClip;
+        public var downBumping:Boolean;
+        public var rightBumpPoint:Point;
+        public var jumpConstant:Number;
+        public var downBumpPoint:Point;
+
+        public function MainTimeline(){
+            addFrameScript(0, this.frame1);
+        }
+        public function keyUpHandler(_arg1:KeyboardEvent):void{
+            if (_arg1.keyCode == Keyboard.LEFT){
+                this.leftPressed = false;
+            } else {
+                if (_arg1.keyCode == Keyboard.RIGHT){
+                    this.rightPressed = false;
+                } else {
+                    if (_arg1.keyCode == Keyboard.UP){
+                        this.upPressed = false;
+                    } else {
+                        if (_arg1.keyCode == Keyboard.DOWN){
+                            this.downPressed = false;
+                        };
+                    };
+                };
+            };
+        }
+        public function loop(_arg1:Event):void{
+            if (this.back.hitTestPoint((this.player.x + this.leftBumpPoint.x), (this.player.y + this.leftBumpPoint.y), true)){
+                this.leftBumping = true;
+            } else {
+                this.leftBumping = false;
+            };
+            if (this.back.hitTestPoint((this.player.x + this.rightBumpPoint.x), (this.player.y + this.rightBumpPoint.y), true)){
+                this.rightBumping = true;
+            } else {
+                this.rightBumping = false;
+            };
+            if (this.back.hitTestPoint((this.player.x + this.upBumpPoint.x), (this.player.y + this.upBumpPoint.y), true)){
+                this.upBumping = true;
+            } else {
+                this.upBumping = false;
+            };
+            if (this.back.hitTestPoint((this.player.x + this.downBumpPoint.x), (this.player.y + this.downBumpPoint.y), true)){
+                this.downBumping = true;
+            } else {
+                this.downBumping = false;
+            };
+            if (this.leftPressed){
+                this.xSpeed = (this.xSpeed - this.speedConstant);
+            } else {
+                if (this.rightPressed){
+                    this.xSpeed = (this.xSpeed + this.speedConstant);
+                };
+            };
+            if (this.leftBumping){
+                if (this.xSpeed < 0){
+                    this.xSpeed = (this.xSpeed * -0.5);
+                };
+	            };
+            if (this.rightBumping){
+                if (this.xSpeed > 0){
+                    this.xSpeed = (this.xSpeed * -0.5);
+                };
+            };
+            if (this.upBumping){
+                if (this.ySpeed < 0){
+                    this.ySpeed = (this.ySpeed * -0.5);
+                };
+            };
+            if (this.downBumping){
+                if (this.ySpeed > 0){
+                    this.ySpeed = 0;
+                };
+                if (this.upPressed){
+                    this.ySpeed = this.jumpConstant;
+                };
+                if (this.upReleasedInAir == true){
+                    this.upReleasedInAir = false;
+                };
+                if (this.doubleJumpReady == false){
+                    this.doubleJumpReady = true;
+                };
+            } else {
+                this.ySpeed = (this.ySpeed + this.gravityConstant);
+                if (this.upPressed == false){
+                    this.upReleasedInAir = true;
+                    trace("upReleasedInAir");
+                };
+                if (((this.doubleJumpReady) && (this.upReleasedInAir))){
+                    if (this.upPressed){
+                        trace("doubleJump!");
+                        this.doubleJumpReady = false;
+                        this.ySpeed = this.jumpConstant;
+                    };
+                };
+            };
+            if (this.xSpeed > this.maxSpeedConstant){
+                this.xSpeed = this.maxSpeedConstant;
+            } else {
+                if (this.xSpeed < (this.maxSpeedConstant * -1)){
+                    this.xSpeed = (this.maxSpeedConstant * -1);
+                };
+            };
+            this.xSpeed = (this.xSpeed * this.frictionConstant);
+            this.ySpeed = (this.ySpeed * this.frictionConstant);
+            if (Math.abs(this.xSpeed) < 0.5){
+                this.xSpeed = 0;
+            };
+            this.scrollX = (this.scrollX - this.xSpeed);
+            this.scrollY = (this.scrollY - this.ySpeed);
+            this.back.x = this.scrollX;
+            this.back.y = this.scrollY;
+        }
+        public function keyDownHandler(_arg1:KeyboardEvent):void{
+            if (_arg1.keyCode == Keyboard.LEFT){
+                this.leftPressed = true;
+            } else {
+                if (_arg1.keyCode == Keyboard.RIGHT){
+                    this.rightPressed = true;
+                } else {
+                    if (_arg1.keyCode == Keyboard.UP){
+                        this.upPressed = true;
+                    } else {
+                        if (_arg1.keyCode == Keyboard.DOWN){
+                            this.downPressed = true;
+                        };
+                    };
+                };
+            };
+        }
+        function frame1(){
+            this.leftPressed = false;
+            this.rightPressed = false;
+            this.upPressed = false;
+            this.downPressed = false;
+            this.leftBumping = false;
+            this.rightBumping = false;
+            this.upBumping = false;
+            this.downBumping = false;
+            this.leftBumpPoint = new Point(-30, -55);
+            this.rightBumpPoint = new Point(30, -55);
+            this.upBumpPoint = new Point(0, -120);
+            this.downBumpPoint = new Point(0, 0);
+            this.scrollX = 0;
+            this.scrollY = 0;
+            this.xSpeed = 0;
+            this.ySpeed = 0;
+            this.speedConstant = 4;
+            this.frictionConstant = 0.9;
+            this.gravityConstant = 1.8;
+            this.jumpConstant = -35;
+            this.maxSpeedConstant = 18;
+            this.doubleJumpReady = false;
+            this.upReleasedInAir = false;
+            stage.addEventListener(KeyboardEvent.KEY_DOWN, this.keyDownHandler);
+            stage.addEventListener(KeyboardEvent.KEY_UP, this.keyUpHandler);
+            stage.addEventListener(Event.ENTER_FRAME, this.loop);
+        }
+
+    }
+}//package Sidescroller_fla
+
+--------------------------------------------------------------------------------------------
+
+Inimigos @ http://dl.dropboxusercontent.com/u/8935299/AS3GameTuts/Sidescroller/Sidescroller_AS3GameTuts_13.swf
+
+package Sidescroller_fla {
+    import flash.display.*;
+
+    public dynamic class BackgroundCollisionsContainer_3 extends MovieClip {
+
+        public function BackgroundCollisionsContainer_3(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package Sidescroller_fla 
+﻿package Sidescroller_fla {
+    import flash.display.*;
+
+    public dynamic class BackgroundOtherObjectsContainer_10 extends MovieClip {
+
+        public var lockedDoor:MovieClip;
+        public var doorKey:MovieClip;
+
+        public function BackgroundOtherObjectsContainer_10(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package Sidescroller_fla 
+﻿package Sidescroller_fla {
+    import flash.display.*;
+
+    public dynamic class LockedDoor_11 extends MovieClip {
+
+        public function LockedDoor_11(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package Sidescroller_fla 
+﻿package Sidescroller_fla {
+    import flash.events.*;
+    import flash.display.*;
+    import flash.geom.*;
+    import adobe.utils.*;
+    import flash.accessibility.*;
+    import flash.desktop.*;
+    import flash.errors.*;
+    import flash.external.*;
+    import flash.filters.*;
+    import flash.globalization.*;
+    import flash.media.*;
+    import flash.net.*;
+    import flash.net.drm.*;
+    import flash.printing.*;
+    import flash.profiler.*;
+    import flash.sampler.*;
+    import flash.sensors.*;
+    import flash.system.*;
+    import flash.text.*;
+    import flash.text.ime.*;
+    import flash.text.engine.*;
+    import flash.ui.*;
+    import flash.utils.*;
+    import flash.xml.*;
+
+    public dynamic class MainTimeline extends MovieClip {
+
+        public var player:MovieClip;
+        public var sky:MovieClip;
+        public var back:MovieClip;
+        public var leftPressed:Boolean;
+        public var rightPressed:Boolean;
+        public var upPressed:Boolean;
+        public var downPressed:Boolean;
+        public var leftBumping:Boolean;
+        public var rightBumping:Boolean;
+        public var upBumping:Boolean;
+        public var downBumping:Boolean;
+        public var leftBumpPoint:Point;
+        public var rightBumpPoint:Point;
+        public var upBumpPoint:Point;
+        public var downBumpPoint:Point;
+        public var scrollX:Number;
+        public var scrollY:Number;
+        public var xSpeed:Number;
+        public var ySpeed:Number;
+        public var speedConstant:Number;
+        public var frictionConstant:Number;
+        public var gravityConstant:Number;
+        public var jumpConstant:Number;
+        public var maxSpeedConstant:Number;
+        public var doubleJumpReady:Boolean;
+        public var upReleasedInAir:Boolean;
+        public var keyCollected:Boolean;
+        public var doorOpen:Boolean;
+        public var currentLevel:int;
+        public var animationState:String;
+        public var bulletList:Array;
+        public var enemyList:Array;
+        public var bumperList:Array;
+
+        public function MainTimeline(){
+            addFrameScript(0, this.frame1);
+        }
+        public function addEnemiesToLevel1():void{
+            this.addEnemy(620, -115);
+            this.addEnemy(900, -490);
+            this.addEnemy(2005, -115);
+            this.addEnemy(1225, -875);
+        }
+        public function addBumpersToLevel1():void{
+            this.addBumper(500, -115);
+            this.addBumper(740, -115);
+        }
+        public function loop(_arg1:Event):void{
+            var _local2:int;
+            var _local3:int;
+            var _local4:int;
+            var _local5:int;
+            var _local6:int;
+            if (this.back.collisions.hitTestPoint((this.player.x + this.leftBumpPoint.x), (this.player.y + this.leftBumpPoint.y), true)){
+                this.leftBumping = true;
+            } else {
+                this.leftBumping = false;
+            };
+            if (this.back.collisions.hitTestPoint((this.player.x + this.rightBumpPoint.x), (this.player.y + this.rightBumpPoint.y), true)){
+                this.rightBumping = true;
+            } else {
+                this.rightBumping = false;
+            };
+            if (this.back.collisions.hitTestPoint((this.player.x + this.upBumpPoint.x), (this.player.y + this.upBumpPoint.y), true)){
+                this.upBumping = true;
+            } else {
+                this.upBumping = false;
+            };
+            if (this.back.collisions.hitTestPoint((this.player.x + this.downBumpPoint.x), (this.player.y + this.downBumpPoint.y), true)){
+                this.downBumping = true;
+            } else {
+                this.downBumping = false;
+            };
+            if (this.leftPressed){
+                this.xSpeed = (this.xSpeed - this.speedConstant);
+                this.player.scaleX = -1;
+            } else {
+                if (this.rightPressed){
+                    this.xSpeed = (this.xSpeed + this.speedConstant);
+                    this.player.scaleX = 1;
+                };
+            };
+            if (this.leftBumping){
+                if (this.xSpeed < 0){
+                    this.xSpeed = (this.xSpeed * -0.5);
+                };
+            };
+            if (this.rightBumping){
+                if (this.xSpeed > 0){
+                    this.xSpeed = (this.xSpeed * -0.5);
+                };
+            };
+            if (this.upBumping){
+                if (this.ySpeed < 0){
+                    this.ySpeed = (this.ySpeed * -0.5);
+                };
+            };
+            if (this.downBumping){
+                if (this.ySpeed > 0){
+                    this.ySpeed = 0;
+                };
+                if (this.upPressed){
+                    this.ySpeed = this.jumpConstant;
+                };
+                if (this.upReleasedInAir == true){
+                    this.upReleasedInAir = false;
+                };
+                if (this.doubleJumpReady == false){
+                    this.doubleJumpReady = true;
+                };
+            } else {
+                this.ySpeed = (this.ySpeed + this.gravityConstant);
+                if ((((this.upPressed == false)) && ((this.upReleasedInAir == false)))){
+                    this.upReleasedInAir = true;
+                };
+                if (((this.doubleJumpReady) && (this.upReleasedInAir))){
+                    if (this.upPressed){
+                        this.doubleJumpReady = false;
+                        this.ySpeed = this.jumpConstant;
+                    };
+                };
+            };
+            if (this.keyCollected == false){
+                if (this.player.hitTestObject(this.back.other.doorKey)){
+                    this.back.other.doorKey.visible = false;
+                    this.keyCollected = true;
+                    trace("key collected");
+                };
+            };
+            if (this.doorOpen == false){
+                if (this.keyCollected == true){
+                    if (this.player.hitTestObject(this.back.other.lockedDoor)){
+                        this.back.other.lockedDoor.gotoAndStop(2);
+                        this.doorOpen = true;
+                        trace("door open");
+                    };
+                };
+            };
+            if (this.xSpeed > this.maxSpeedConstant){
+                this.xSpeed = this.maxSpeedConstant;
+            } else {
+                if (this.xSpeed < (this.maxSpeedConstant * -1)){
+                    this.xSpeed = (this.maxSpeedConstant * -1);
+                };
+            };
+            this.xSpeed = (this.xSpeed * this.frictionConstant);
+            this.ySpeed = (this.ySpeed * this.frictionConstant);
+            if (Math.abs(this.xSpeed) < 0.5){
+                this.xSpeed = 0;
+            };
+            this.scrollX = (this.scrollX - this.xSpeed);
+            this.scrollY = (this.scrollY - this.ySpeed);
+            this.back.x = this.scrollX;
+            this.back.y = this.scrollY;
+            this.sky.x = (this.scrollX * 0.2);
+            this.sky.y = (this.scrollY * 0.2);
+            if (((((((((this.leftPressed) || (this.rightPressed))) || ((this.xSpeed > this.speedConstant)))) || ((this.xSpeed < (this.speedConstant * -1))))) && (this.downBumping))){
+                this.animationState = "running";
+            } else {
+                if (this.downBumping){
+                    this.animationState = "idle";
+                } else {
+                    this.animationState = "jumping";
+                };
+            };
+            if (this.player.currentLabel != this.animationState){
+                this.player.gotoAndStop(this.animationState);
+            };
+            if (this.enemyList.length > 0){
+                _local2 = 0;
+                while (_local2 < this.enemyList.length) {
+                    if (this.bulletList.length > 0){
+                        _local3 = 0;
+                        while (_local3 < this.bulletList.length) {
+                            if (this.enemyList[_local2].hitTestObject(this.bulletList[_local3])){
+                                trace("Bullet and Enemy are colliding");
+                                this.enemyList[_local2].removeSelf();
+                                this.bulletList[_local3].removeSelf();
+                            };
+                            _local3++;
+                        };
+                    };
+                    _local2++;
+                };
+            };
+            if (this.enemyList.length > 0){
+                _local4 = 0;
+                while (_local4 < this.enemyList.length) {
+                    if (this.bumperList.length > 0){
+                        _local5 = 0;
+                        while (_local5 < this.bumperList.length) {
+                            if (this.enemyList[_local4].hitTestObject(this.bumperList[_local5])){
+                                this.enemyList[_local4].changeDirection();
+                            };
+                            _local5++;
+                        };
+                    };
+                    _local4++;
+                };
+            };
+            if (this.enemyList.length > 0){
+                _local6 = 0;
+                while (_local6 < this.enemyList.length) {
+                    if (this.enemyList[_local6].hitTestObject(this.player)){
+                        trace("player collided with enemy");
+                        this.enemyList[_local6].removeSelf();
+                    };
+                    _local6++;
+                };
+            };
+        }
+        public function nextLevel():void{
+            this.currentLevel++;
+            trace(("Next Level: " + this.currentLevel));
+            if (this.currentLevel == 2){
+                this.gotoLevel2();
+            };
+        }
+        public function gotoLevel2():void{
+            this.back.other.gotoAndStop(2);
+            this.back.visuals.gotoAndStop(2);
+            this.back.collisions.gotoAndStop(2);
+            this.scrollX = 0;
+            this.scrollY = 500;
+            this.keyCollected = false;
+            this.back.other.doorKey.visible = true;
+            this.doorOpen = false;
+            this.back.other.lockedDoor.gotoAndStop(1);
+        }
+        public function keyDownHandler(_arg1:KeyboardEvent):void{
+            if (_arg1.keyCode == Keyboard.LEFT){
+                this.leftPressed = true;
+            } else {
+                if (_arg1.keyCode == Keyboard.RIGHT){
+                    this.rightPressed = true;
+                } else {
+                    if (_arg1.keyCode == Keyboard.UP){
+                        this.upPressed = true;
+                    } else {
+                        if (_arg1.keyCode == Keyboard.DOWN){
+                            this.downPressed = true;
+                            if (((this.doorOpen) && (this.player.hitTestObject(this.back.other.lockedDoor)))){
+                                this.nextLevel();
+                            };
+                        };
+                    };
+                };
+            };
+        }
+        public function keyUpHandler(_arg1:KeyboardEvent):void{
+            if (_arg1.keyCode == Keyboard.LEFT){
+                this.leftPressed = false;
+            } else {
+                if (_arg1.keyCode == Keyboard.RIGHT){
+                    this.rightPressed = false;
+                } else {
+                    if (_arg1.keyCode == Keyboard.UP){
+                        this.upPressed = false;
+                    } else {
+                        if (_arg1.keyCode == Keyboard.DOWN){
+                            this.downPressed = false;
+                        };
+                    };
+                };
+            };
+            if (_arg1.keyCode == Keyboard.SPACE){
+                this.fireBullet();
+            };
+        }
+        public function fireBullet():void{
+            var _local1:String;
+            if (this.player.scaleX < 0){
+                _local1 = "left";
+            } else {
+                if (this.player.scaleX > 0){
+                    _local1 = "right";
+                };
+            };
+            var _local2:Bullet = new Bullet((this.player.x - this.scrollX), (this.player.y - this.scrollY), _local1, this.xSpeed);
+            this.back.addChild(_local2);
+            _local2.addEventListener(Event.REMOVED, this.bulletRemoved);
+            this.bulletList.push(_local2);
+        }
+        public function bulletRemoved(_arg1:Event):void{
+            _arg1.currentTarget.removeEventListener(Event.REMOVED, this.bulletRemoved);
+            this.bulletList.splice(this.bulletList.indexOf(_arg1.currentTarget), 1);
+        }
+        public function addEnemy(_arg1:int, _arg2:int):void{
+            var _local3:Enemy = new Enemy(_arg1, _arg2);
+            this.back.addChild(_local3);
+            _local3.addEventListener(Event.REMOVED, this.enemyRemoved);
+            this.enemyList.push(_local3);
+        }
+        public function addBumper(_arg1:int, _arg2:int):void{
+            var _local3:Bumper = new Bumper(_arg1, _arg2);
+            this.back.addChild(_local3);
+            _local3.visible = false;
+            this.bumperList.push(_local3);
+        }
+        public function enemyRemoved(_arg1:Event):void{
+            _arg1.currentTarget.removeEventListener(Event.REMOVED, this.enemyRemoved);
+            this.enemyList.splice(this.enemyList.indexOf(_arg1.currentTarget), 1);
+        }
+        function frame1(){
+            this.leftPressed = false;
+            this.rightPressed = false;
+            this.upPressed = false;
+            this.downPressed = false;
+            this.leftBumping = false;
+            this.rightBumping = false;
+            this.upBumping = false;
+            this.downBumping = false;
+            this.leftBumpPoint = new Point(-30, -55);
+            this.rightBumpPoint = new Point(30, -55);
+            this.upBumpPoint = new Point(0, -120);
+            this.downBumpPoint = new Point(0, 0);
+            this.scrollX = 0;
+            this.scrollY = 500;
+            this.xSpeed = 0;
+            this.ySpeed = 0;
+            this.speedConstant = 4;
+            this.frictionConstant = 0.9;
+            this.gravityConstant = 1.8;
+            this.jumpConstant = -35;
+            this.maxSpeedConstant = 18;
+            this.doubleJumpReady = false;
+            this.upReleasedInAir = false;
+            this.keyCollected = false;
+            this.doorOpen = false;
+            this.currentLevel = 1;
+            this.animationState = "idle";
+            this.bulletList = new Array();
+            this.enemyList = new Array();
+            this.bumperList = new Array();
+            stage.addEventListener(KeyboardEvent.KEY_DOWN, this.keyDownHandler);
+            stage.addEventListener(KeyboardEvent.KEY_UP, this.keyUpHandler);
+            stage.addEventListener(Event.ENTER_FRAME, this.loop);
+            this.addEnemiesToLevel1();
+            this.addBumpersToLevel1();
+        }
+
+    }
+}//package Sidescroller_fla 
+﻿package Sidescroller_fla {
+    import flash.display.*;
+
+    public dynamic class BackgroundVisualsContainer_4 extends MovieClip {
+
+        public function BackgroundVisualsContainer_4(){
+            addFrameScript(0, this.frame1);
+        }
+        function frame1(){
+            stop();
+        }
+
+    }
+}//package Sidescroller_fla 
+﻿package {
+    import flash.events.*;
+    import flash.display.*;
+
+    public class Enemy extends MovieClip {
+
+        private var xSpeedConst:int = 2;
+        private var flip:int = 1;
+
+        public function Enemy(_arg1:int, _arg2:int){
+            x = _arg1;
+            y = _arg2;
+            addEventListener(Event.ENTER_FRAME, this.loop);
+        }
+        public function loop(_arg1:Event):void{
+            if ((this.flip % 2) == 1){
+                x = (x + this.xSpeedConst);
+            } else {
+                if ((this.flip % 2) == 0){
+                    x = (x + -(this.xSpeedConst));
+                };
+            };
+        }
+        public function removeSelf():void{
+            trace("remove enemy");
+            removeEventListener(Event.ENTER_FRAME, this.loop);
+            this.parent.removeChild(this);
+        }
+        public function changeDirection():void{
+            trace(("x =" + x));
+            this.flip++;
+        }
+
+    }
+}//package 
+﻿package {
+    import flash.events.*;
+    import flash.display.*;
+
+    public class Bullet extends MovieClip {
+
+        private var speed:int = 30;
+        private var initialX:int;
+
+        public function Bullet(_arg1:int, _arg2:int, _arg3:String, _arg4:int){
+            if (_arg3 == "left"){
+                this.speed = (-30 + _arg4);
+                x = (_arg1 - 25);
+            } else {
+                if (_arg3 == "right"){
+                    this.speed = (30 + _arg4);
+                    x = (_arg1 + 25);
+                };
+            };
+            y = (_arg2 - 75);
+            this.initialX = x;
+            addEventListener(Event.ENTER_FRAME, this.loop);
+        }
+        public function loop(_arg1:Event):void{
+            x = (x + this.speed);
+            if (this.speed > 0){
+                if (x > (this.initialX + 640)){
+                    this.removeSelf();
+                };
+            } else {
+                if (x < (this.initialX - 640)){
+                    this.removeSelf();
+                };
+            };
+        }
+        public function removeSelf():void{
+            trace("remove self");
+            removeEventListener(Event.ENTER_FRAME, this.loop);
+            this.parent.removeChild(this);
+        }
+
+    }
+}//package 
+﻿package {
+    import flash.events.*;
+    import flash.display.*;
+
+    public class Bumper extends MovieClip {
+
+        public function Bumper(_arg1:int, _arg2:int){
+            x = _arg1;
+            y = _arg2;
+            addEventListener(Event.ENTER_FRAME, this.bumper);
+        }
+        public function bumper(_arg1:Event):void{
+        }
+
+    }
+}//package
